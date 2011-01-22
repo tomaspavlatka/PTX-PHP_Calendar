@@ -1,0 +1,26 @@
+PTX PHP Calendar for PHP (c) Tomas Pavlatka, 2010 (http://pavlatka.cz)
+
+Introduction
+------------
+
+PTX PHP Calendar is very small PHP class which generates informaction for calendar. These information
+can be used in many ways (check examples).
+
+
+Project at GitHub: https://github.com/tomaspavlatka/PTX-PHP-Calendar
+My website: http://pavlatka.cz
+
+
+Requirements
+------------
+- PHP (version 5 or better)
+
+Usage
+-----
+
+Check examples.
+
+Files
+-----
+readme.txt                 - This file.
+license.txt                - The license for this software (New BSD License).
