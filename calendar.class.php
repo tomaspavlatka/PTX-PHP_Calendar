@@ -13,12 +13,6 @@ class PTX_Calendar {
     private $_calendar = '1';
     
     /**
-     * Date format.
-     */          
-    private $_dateFormat = 'Y-m-d';
-    
-    
-    /**
      * First day of week
      * 1 - Monday, 7 - Sunday     
      */         
@@ -209,11 +203,6 @@ class PTX_Calendar {
         // Calendar.
         if(isset($this->_options['calendar'])) {
             $this->_calendar = $this->_options['calendar'];
-        }
-        
-        // Date format.
-        if(isset($this->_options['date_format'])) {
-            $this->_dateFormat = $this->_options['date_format'];
         }
         
         // First day of week.

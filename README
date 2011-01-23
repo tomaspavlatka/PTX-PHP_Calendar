@@ -18,9 +18,27 @@ Requirements
 Usage
 -----
 
-Check examples.
+// Needed classes.
+require_once './calendar.class.php';
+
+// Object.
+$options = array(
+    'show_days_from_different_month' => false       
+);
+$calendarObj =& new PTX_Calendar($options);
+
+// Variables.
+$month = 1;
+$year = 2010;
+
+// build month.
+echo '<pre>';
+    print_r($calendarObj->buildMonth($month,$year));
+echo '</pre>';
 
 Files
 -----
 readme.txt                 - This file.
 license.txt                - The license for this software (New BSD License).
+calendar.class.php         - The core PTX_Calendar class source.
+index.php                  - Index file.
