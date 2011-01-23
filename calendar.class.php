@@ -153,11 +153,9 @@ class PTX_Calendar {
         $i=1;
      
         // Magic body.    
-        if($startDate < $endDate) {
-            while($start < $endDate) {
-                $start = strtotime(date('Y-m-d',$startDate).'+'.$i++.' days');
-                $return[] = $start;
-            }
+        while($start < $endDate) {
+            $start = strtotime(date('Y-m-d',$startDate).'+'.$i++.' days');
+            $return[] = $start;
         }
      
         // Return.
